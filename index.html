@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Manatsu Sawadaのポートフォリオサイト。看護師経験を活かしながらWeb制作とAIツールを学ぶWeb学習者の自己紹介・制作実績サイトです。"
+    />
+    <title>Manatsu Sawada | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-logo" href="#hero" aria-label="Manatsu Sawada home">
+        Manatsu Sawada
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-controls="site-nav"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#works">Works</a>
+        <a href="#illustration">Illustration</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="language-switcher" aria-label="Language switcher">
+        <button class="lang-button is-active" type="button" data-lang="ja">
+          JP
+        </button>
+        <span aria-hidden="true">/</span>
+        <button class="lang-button" type="button" data-lang="en">
+          EN
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p
+              class="eyebrow"
+              data-i18n
+              data-ja="PORTFOLIO / WEB LEARNING"
+              data-en="PORTFOLIO / WEB LEARNING"
+            >
+              PORTFOLIO / WEB LEARNING
+            </p>
+            <h1>Manatsu Sawada</h1>
+            <p class="hero-subtitle">Web Learner / Nurse / Illustrator</p>
+            <p
+              class="hero-text"
+              data-i18n
+              data-ja="医療現場での経験から、医療とITをつなぐ分野に関心を持ちました。Web制作やAIツールを学びながら、実用的で人に寄り添うサービスづくりを目指しています。"
+              data-en="I am learning web development and AI tools while drawing on my nursing background. I aim to create practical, thoughtful digital work for real people."
+            ></p>
+            <div class="hero-actions">
+              <a
+                class="button button-primary"
+                href="#works"
+                data-i18n
+                data-ja="Worksを見る"
+                data-en="View Works"
+                >Worksを見る</a
+              >
+              <a
+                class="button button-secondary"
+                href="#contact"
+                data-i18n
+                data-ja="Contact"
+                data-en="Contact"
+                >Contact</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="image-placeholder hero-placeholder">
+              <!-- Replace this file later. Recommended: 1200x900px PNG, transparent or warm-white background. -->
+              <img
+                src="images/hero-illustration.png"
+                alt="Line illustration for Manatsu Sawada portfolio"
+                onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">PROFILE</p>
+            <h2 data-i18n data-ja="About" data-en="About">About</h2>
+          </div>
+          <div class="about-grid">
+            <div class="portrait-card">
+              <div class="image-placeholder portrait-placeholder">
+                <img
+                  src="images/about-portrait.png"
+                  alt="Portrait illustration of Manatsu Sawada"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </div>
+            </div>
+            <div class="about-content">
+              <p
+                class="lead"
+                data-i18n
+                data-ja="神戸大学医学部保健学科を卒業後、都内大学病院にて看護師として勤務。
+現在はフィリピンで語学を学びながら、Web制作とAIツールを学習中。実践を重ねながら、わかりやすい制作物づくりに取り組んでいます。"
+                data-en="With clinical nursing experience, I want to deliver useful information and systems through the web. I am currently learning web development and AI tools while practicing clear, user-friendly production."
+              >
+                神戸大学医学部保健学科を卒業後、都内大学病院にて看護師として勤務。
+現在はフィリピンで語学を学びながら、Web制作とAIツールを学習中。実践を重ねながら、わかりやすい制作物づくりに取り組んでいます。
+              </p>
+              <div class="profile-list">
+                <article>
+                  <h3>Healthcare Background</h3>
+                  <p
+                    data-i18n
+                    data-ja="都内大学病院で病棟・外来業務を経験。電子カルテや病院システムの変化を通じて、ITが医療現場の働き方を大きく変える可能性を実感。"
+                    data-en="Experienced inpatient and outpatient nursing at a university hospital in Tokyo. Through changes in electronic medical records and hospital systems, recognized how technology can transform healthcare workflows."
+                  >
+                  </p>
+                </article>
+                <article>
+                  <h3>English Ability</h3>
+                  <p
+                    data-i18n
+                    data-ja="TOEIC910点。日常会話・読み書きに対応可能。シェアハウスや国際交流を通じて語学力を磨き、2026.05~フィリピン留学中。"
+                    data-en="TOEIC 910. Able to handle daily conversation, reading, and writing. Currently studying English and IT in the Philippines."
+                  ></p>
+                </article>
+                <article>
+                  <h3>Learning Now</h3>
+                  <p
+                    data-i18n
+                    data-ja="HTML / CSS / JavaScript / PHP などのWeb制作と、AIツールの活用スキルを学んでいます。"
+                    data-en="I am learning HTML, CSS, JavaScript, PHP, and practical ways to use AI tools in web production."
+                  ></p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-compact" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">TOOLS</p>
+            <h2 data-i18n data-ja="Skills" data-en="Skills">Skills</h2>
+          </div>
+          <ul class="skill-tags" aria-label="Skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>GitHub</li>
+            <li>AI Tools</li>
+            <li>English</li>
+            <li>Healthcare</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section works-section" id="works">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">MAIN PORTFOLIO</p>
+            <h2 data-i18n data-ja="Works" data-en="Works">Works</h2>
+          </div>
+          <div class="works-grid">
+            <article class="work-card">
+              <div class="work-visual code-window" aria-hidden="true"></div>
+              <div class="work-body">
+                <h3
+                  data-i18n
+                  data-ja="Portfolio Project"
+                  data-en="Portfolio Project"
+                >
+                  Portfolio Project
+                </h3>
+                <p
+                  data-i18n
+                  data-ja="ポートフォリオサイトを自分で設計・制作しました。情報を整理し、読みやすく伝えることを意識しています。"
+                  data-en="A self-designed portfolio site focused on organizing information and communicating clearly."
+                >
+                  ポートフォリオサイトを自分で設計・制作しました。情報を整理し、読みやすく伝えることを意識しています。
+                </p>
+                <ul class="mini-tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="#" class="text-link">Demo</a>
+                  <a href="#" class="text-link">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="work-card">
+              <div class="work-visual responsive-window" aria-hidden="true"></div>
+              <div class="work-body">
+                <h3 data-i18n data-ja="Web Practice" data-en="Web Practice">
+                  Web Practice
+                </h3>
+                <p
+                  data-i18n
+                  data-ja="レスポンシブ対応のWebサイト制作を想定した練習作品です。レイアウトやUIの工夫を学習中です。"
+                  data-en="A practice project for responsive websites, focused on layout, UI structure, and clear interaction."
+                >
+                  レスポンシブ対応のWebサイト制作を想定した練習作品です。レイアウトやUIの工夫を学習中です。
+                </p>
+                <ul class="mini-tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="#" class="text-link">Demo</a>
+                  <a href="#" class="text-link">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="work-card">
+              <div class="work-visual note-window" aria-hidden="true"></div>
+              <div class="work-body">
+                <h3 data-i18n data-ja="Learning Log" data-en="Learning Log">
+                  Learning Log
+                </h3>
+                <p
+                  data-i18n
+                  data-ja="学習の記録と気づきをまとめるサイトです。継続的なアウトプットで理解を深めています。"
+                  data-en="A learning log concept for recording progress, notes, and reflections through continuous output."
+                >
+                  学習の記録と気づきをまとめるサイトです。継続的なアウトプットで理解を深めています。
+                </p>
+                <ul class="mini-tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="#" class="text-link">Demo</a>
+                  <a href="#" class="text-link">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section illustration-section" id="illustration">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">SECONDARY</p>
+            <h2 data-i18n data-ja="Illustration" data-en="Illustration">
+              Illustration
+            </h2>
+            <p
+              class="section-description"
+              data-i18n
+              data-ja="趣味でイラスト制作をしています。魅力的なデザインについて、関心があります。"
+              data-en="I create illustrations as a hobby and am interested in appealing, thoughtful design."
+            >
+              趣味でイラスト制作をしています。魅力的なデザインについて、関心があります。
+            </p>
+          </div>
+          <div class="illustration-layout">
+            <div class="illustration-grid">
+              <button class="image-placeholder illustration-placeholder illustration-trigger" type="button" aria-label="Open illustration 1">
+                <img
+                  src="assets/images/noronoro.PNG"
+                  alt="Illustration work thumbnail 1"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </button>
+              <button class="image-placeholder illustration-placeholder illustration-trigger" type="button" aria-label="Open illustration 2">
+                <img
+                  src="assets/images/kou2_choucreme.PNG"
+                  alt="Illustration work thumbnail 2"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </button>
+              <button class="image-placeholder illustration-placeholder illustration-trigger" type="button" aria-label="Open illustration 3">
+                <img
+                  src="assets/images/favorite_chara.PNG"
+                  alt="Illustration work thumbnail 3"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </button>
+            </div>
+            <a
+              class="button button-secondary more-button"
+              href="#"
+              data-i18n
+              data-ja="More"
+              data-en="More"
+              >More</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2 data-i18n data-ja="Contact" data-en="Contact">Contact</h2>
+          </div>
+          <div class="contact-grid">
+            <a class="contact-card" href="mailto:example@example.com">
+              <span class="icon icon-mail" aria-hidden="true"></span>
+              <span>Email</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-card" href="https://github.com/">
+              <span class="icon icon-github" aria-hidden="true"></span>
+              <span>GitHub</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-card" href="https://www.wantedly.com/">
+              <span class="icon icon-wantedly" aria-hidden="true">W</span>
+              <span>Wantedly</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Manatsu Sawada</p>
+    </footer>
+
+    <div class="image-modal" aria-hidden="true">
+      <button class="modal-close" type="button" aria-label="Close expanded image">
+        ×
+      </button>
+      <img src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

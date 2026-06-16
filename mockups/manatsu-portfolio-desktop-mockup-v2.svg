@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="2840" viewBox="0 0 1440 2840">
+  <defs>
+    <style>
+      @font-face { font-family: 'Noto Sans JP'; src: url('C:/Windows/Fonts/NotoSansJP-VF.ttf'); }
+      text { dominant-baseline: alphabetic; }
+    </style>
+    <pattern id="dotGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#d9dce2" opacity=".75"/>
+    </pattern>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#16233f" flood-opacity=".06"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="2840" fill="#f7f2e8"/>
+
+  <rect x="0" y="0" width="1440" height="98" fill="#fffdf8"/>
+  <line x1="0" y1="98" x2="1440" y2="98" stroke="#d9dce2"/>
+  <text x="96" y="60" font-family="Noto Sans JP" font-size="22" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Manatsu Sawada</text>
+  <text x="690" y="60" font-family="Noto Sans JP" font-size="15" font-weight="700" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">About</text>
+  <text x="790" y="60" font-family="Noto Sans JP" font-size="15" font-weight="700" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Skills</text>
+  <text x="888" y="60" font-family="Noto Sans JP" font-size="15" font-weight="700" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Works</text>
+  <text x="996" y="60" font-family="Noto Sans JP" font-size="15" font-weight="700" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Illustration</text>
+  <text x="1142" y="60" font-family="Noto Sans JP" font-size="15" font-weight="700" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Contact</text>
+  <rect x="1264" y="32" width="52" height="34" rx="12" fill="#16233f"/>
+  <text x="1290" y="55" font-family="Noto Sans JP" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0" opacity="1">JP</text>
+  <text x="1328" y="55" font-family="Noto Sans JP" font-size="14" font-weight="400" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">/</text>
+  <text x="1356" y="55" font-family="Noto Sans JP" font-size="13" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">EN</text>
+
+  <rect x="0" y="98" width="1440" height="650" fill="#f7f2e8"/>
+  <rect x="812" y="128" width="520" height="520" fill="url(#dotGrid)" opacity=".7"/>
+  <rect x="96" y="592" width="370" height="1" fill="#d9dce2"/>
+  <text x="96" y="244" font-family="Noto Sans JP" font-size="76" font-weight="850" fill="#16233f" text-anchor="start" letter-spacing="-1" opacity="1">Manatsu Sawada</text>
+  <text x="100" y="310" font-family="Noto Sans JP" font-size="25" font-weight="700" fill="#22345b" text-anchor="start" letter-spacing="0" opacity="1">Web Learner / Nurse / Illustrator</text>
+  <text x="100" y="378" font-family="Noto Sans JP" font-size="20" font-weight="500" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">看護の経験を活かしながら、Web制作とAIツールを学んでいます。</text><text x="100" y="414" font-family="Noto Sans JP" font-size="20" font-weight="500" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">実用的で、使う人に寄り添うデジタル制作を目指しています。</text>
+  <rect x="100" y="486" width="166" height="48" rx="24" fill="#16233f"/>
+  <text x="183" y="518" font-family="Noto Sans JP" font-size="15" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0" opacity="1">Worksを見る</text>
+  <rect x="284" y="486" width="150" height="48" rx="24" fill="#fffdf8" stroke="#16233f"/>
+  <text x="359" y="518" font-family="Noto Sans JP" font-size="15" font-weight="800" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">Contact</text>
+  
+    <rect x="100" y="572" width="52" height="52" rx="16" fill="#fffdf8" stroke="#d9dce2"/>
+    
+    <circle cx="126" cy="598" r="15" fill="#16233f"/>
+    <circle cx="120" cy="596" r="3" fill="#fffdf8"/>
+    <circle cx="132" cy="596" r="3" fill="#fffdf8"/>
+    <path d="M119 604 C124 608, 128 608, 133 604" fill="none" stroke="#fffdf8" stroke-width="2" stroke-linecap="round"/>
+  
+    <text x="126" y="650" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="middle" letter-spacing="0" opacity="1">GitHub</text>
+  
+  
+    <rect x="170" y="572" width="52" height="52" rx="16" fill="#fffdf8" stroke="#d9dce2"/>
+    
+    <rect x="182" y="588" width="28" height="20" rx="2" fill="none" stroke="#16233f" stroke-width="2"/>
+    <path d="M182 590 L196 600 L210 590" fill="none" stroke="#16233f" stroke-width="2"/>
+  
+    <text x="196" y="650" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="middle" letter-spacing="0" opacity="1">Mail</text>
+  
+  
+    <rect x="240" y="572" width="52" height="52" rx="16" fill="#fffdf8" stroke="#d9dce2"/>
+    
+    <path d="M248 586 L258 610 L266 594 L274 610 L284 586" fill="none" stroke="#16233f" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="286" cy="584" r="4" fill="#c49a3b"/>
+  
+    <text x="266" y="650" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="middle" letter-spacing="0" opacity="1">Wantedly</text>
+  
+  
+    <g transform="translate(888 168)">
+      <rect x="52" y="350" width="310" height="26" rx="13" fill="#e8ddce" opacity=".8"/>
+      <rect x="52" y="210" width="258" height="154" rx="18" fill="#fffdf8" stroke="#16233f" stroke-width="4"/>
+      <line x1="76" y1="252" x2="286" y2="252" stroke="#d9dce2" stroke-width="3"/>
+      <path d="M98 314 L130 282 L158 304 L198 264 L256 326" fill="none" stroke="#c49a3b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M360 278 C432 262, 434 354, 360 338" fill="none" stroke="#16233f" stroke-width="4"/>
+      <rect x="308" y="258" width="74" height="98" rx="14" fill="#fffdf8" stroke="#16233f" stroke-width="4"/>
+      <circle cx="345" cy="180" r="68" fill="#c49a3b" opacity=".95"/>
+      <g stroke="#c49a3b" stroke-width="4" stroke-linecap="round">
+        <line x1="345" y1="84" x2="345" y2="50"/>
+        <line x1="345" y1="276" x2="345" y2="244"/>
+        <line x1="249" y1="180" x2="215" y2="180"/>
+        <line x1="475" y1="180" x2="443" y2="180"/>
+        <line x1="276" y1="111" x2="252" y2="87"/>
+        <line x1="414" y1="111" x2="438" y2="87"/>
+        <line x1="276" y1="249" x2="252" y2="273"/>
+        <line x1="414" y1="249" x2="438" y2="273"/>
+      </g>
+      <path d="M326 252 C300 284, 288 328, 286 372" fill="none" stroke="#16233f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M364 252 C392 292, 402 326, 406 372" fill="none" stroke="#16233f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M306 300 C266 304, 228 324, 190 356" fill="none" stroke="#16233f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M382 300 C412 305, 438 320, 462 344" fill="none" stroke="#16233f" stroke-width="5" stroke-linecap="round"/>
+      <g opacity=".72">
+        <rect x="404" y="74" width="118" height="78" rx="14" fill="#fffdf8" stroke="#d9dce2"/>
+        <path d="M430 119 L448 104 L430 89" fill="none" stroke="#22345b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M496 89 L478 104 L496 119" fill="none" stroke="#22345b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="458" y1="126" x2="470" y2="84" stroke="#c49a3b" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </g>
+  
+
+  <line x1="0" y1="748" x2="1440" y2="748" stroke="#d9dce2"/>
+  
+    <text x="96" y="850" font-family="Noto Sans JP" font-size="34" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">About</text>
+    <rect x="96" y="868" width="44" height="4" rx="2" fill="#c49a3b"/>
+    <text x="158" y="872" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="start" letter-spacing="2.2" opacity="1">PROFILE</text>
+  
+  <rect x="96" y="930" width="328" height="278" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+  <rect x="124" y="958" width="272" height="222" rx="14" fill="#f7f2e8"/>
+  <path d="M184 1108 C212 1020, 280 996, 340 1064" fill="none" stroke="#16233f" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="210" cy="1044" r="34" fill="#c49a3b" opacity=".85"/>
+  <path d="M250 1112 L292 1040 L342 1112" fill="none" stroke="#16233f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="520" y="926" width="820" height="282" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+  <text x="564" y="992" font-family="Noto Sans JP" font-size="18" font-weight="500" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">看護師としての臨床経験を活かし、人の役に立つ情報や仕組みをWebで届けたいと考えています。</text><text x="564" y="1026" font-family="Noto Sans JP" font-size="18" font-weight="500" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">現在はWeb制作とAIツールを学び、実践を重ねながら、わかりやすい制作物づくりに取り組んでいます。</text>
+  <line x1="564" y1="1088" x2="1296" y2="1088" stroke="#d9dce2"/>
+  <text x="564" y="1142" font-family="Noto Sans JP" font-size="16" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Healthcare</text>
+  <text x="724" y="1142" font-family="Noto Sans JP" font-size="16" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">患者さんやチームと丁寧に関わり、相手の状況を考える姿勢を大切にしています。</text>
+  <text x="564" y="1184" font-family="Noto Sans JP" font-size="16" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">English / AI</text>
+  <text x="724" y="1184" font-family="Noto Sans JP" font-size="16" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">英語の情報収集やAIツールを活用しながら、制作と学習を進めています。</text>
+
+  <line x1="96" y1="1292" x2="1344" y2="1292" stroke="#d9dce2"/>
+  
+    <text x="96" y="1378" font-family="Noto Sans JP" font-size="34" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Skills</text>
+    <rect x="96" y="1396" width="44" height="4" rx="2" fill="#c49a3b"/>
+    <text x="158" y="1400" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="start" letter-spacing="2.2" opacity="1">TOOLS</text>
+  
+  
+    <rect x="96" y="1444" width="114" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="153" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">HTML</text>
+  
+  
+    <rect x="230" y="1444" width="102" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="281" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">CSS</text>
+  
+  
+    <rect x="352" y="1444" width="164" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="434" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">JavaScript</text>
+  
+  
+    <rect x="536" y="1444" width="104" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="588" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">PHP</text>
+  
+  
+    <rect x="660" y="1444" width="128" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="724" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">GitHub</text>
+  
+  
+    <rect x="808" y="1444" width="138" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="877" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">AI Tools</text>
+  
+  
+    <rect x="966" y="1444" width="130" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="1031" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">English</text>
+  
+  
+    <rect x="1116" y="1444" width="164" height="36" rx="18" fill="#fffdf8" stroke="#d9dce2"/>
+    <text x="1198" y="1468" font-family="Noto Sans JP" font-size="15" font-weight="600" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">Healthcare</text>
+  
+
+  <line x1="96" y1="1538" x2="1344" y2="1538" stroke="#d9dce2"/>
+  
+    <text x="96" y="1624" font-family="Noto Sans JP" font-size="34" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Works</text>
+    <rect x="96" y="1642" width="44" height="4" rx="2" fill="#c49a3b"/>
+    <text x="158" y="1646" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="start" letter-spacing="2.2" opacity="1">MAIN PORTFOLIO</text>
+  
+  
+    <rect x="96" y="1690" width="386" height="398" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+    <rect x="96" y="1690" width="386" height="174" rx="10" fill="#dfe8ea"/>
+    <rect x="96" y="1690" width="386" height="174" rx="10" fill="#f3f0e8" opacity=".55"/>
+    <line x1="96" y1="1864" x2="482" y2="1864" stroke="#d9dce2"/>
+    
+    <rect x="197" y="1714" width="184" height="124" rx="10" fill="#fffdf8" stroke="#16233f" stroke-width="2"/>
+    <line x1="197" y1="1748" x2="381" y2="1748" stroke="#d9dce2" stroke-width="2"/>
+    <circle cx="221" cy="1731" r="4" fill="#c49a3b"/>
+    <circle cx="237" cy="1731" r="4" fill="#b8a68d"/>
+    <circle cx="253" cy="1731" r="4" fill="#dfe8ea"/>
+    <path d="M235 1792 L265 1774 L235 1756" fill="none" stroke="#22345b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M343 1756 L313 1774 L343 1792" fill="none" stroke="#22345b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="287" y1="1798" x2="307" y2="1750" stroke="#c49a3b" stroke-width="3" stroke-linecap="round"/>
+  
+    <text x="122" y="1916" font-family="Noto Sans JP" font-size="24" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Portfolio Project</text>
+    <text x="122" y="1955" font-family="Noto Sans JP" font-size="15" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">ポートフォリオサイトを自分で設計・制作しました。</text><text x="122" y="1980" font-family="Noto Sans JP" font-size="15" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">情報を整理し、読みやすく伝えることを意識しています。</text>
+    
+    <rect x="122" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="151" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">HTML</text>
+  
+    <rect x="190" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="219" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">CSS</text>
+  
+    <rect x="258" y="2016" width="112" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="314" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">JavaScript</text>
+  
+  
+  
+    <rect x="527" y="1690" width="386" height="398" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+    <rect x="527" y="1690" width="386" height="174" rx="10" fill="#dfe8ea"/>
+    <rect x="527" y="1690" width="386" height="174" rx="10" fill="#f3f0e8" opacity=".55"/>
+    <line x1="527" y1="1864" x2="913" y2="1864" stroke="#d9dce2"/>
+    
+    <rect x="642" y="1714" width="128" height="100" rx="10" fill="#fffdf8" stroke="#16233f" stroke-width="2"/>
+    <rect x="754" y="1760" width="54" height="88" rx="10" fill="#fffdf8" stroke="#16233f" stroke-width="2"/>
+    <line x1="688" y1="1830" x2="728" y2="1830" stroke="#16233f" stroke-width="2"/>
+    <line x1="708" y1="1814" x2="708" y2="1830" stroke="#16233f" stroke-width="2"/>
+    <circle cx="781" cy="1836" r="3" fill="#c49a3b"/>
+  
+    <text x="553" y="1916" font-family="Noto Sans JP" font-size="24" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Web Practice</text>
+    <text x="553" y="1955" font-family="Noto Sans JP" font-size="15" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">レスポンシブ対応のWebサイトを制作。</text><text x="553" y="1980" font-family="Noto Sans JP" font-size="15" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">レイアウトやUIの工夫を学習中です。</text>
+    
+    <rect x="553" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="582" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">HTML</text>
+  
+    <rect x="621" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="650" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">CSS</text>
+  
+    <rect x="689" y="2016" width="112" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="745" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">JavaScript</text>
+  
+    <rect x="811" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="840" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">PHP</text>
+  
+  
+  
+    <rect x="958" y="1690" width="386" height="398" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+    <rect x="958" y="1690" width="386" height="174" rx="10" fill="#dfe8ea"/>
+    <rect x="958" y="1690" width="386" height="174" rx="10" fill="#f3f0e8" opacity=".55"/>
+    <line x1="958" y1="1864" x2="1344" y2="1864" stroke="#d9dce2"/>
+    
+    <rect x="1093" y="1702" width="104" height="136" rx="8" fill="#fffdf8" stroke="#16233f" stroke-width="2"/>
+    <line x1="1117" y1="1734" x2="1173" y2="1734" stroke="#b8a68d" stroke-width="3" stroke-linecap="round"/>
+    <line x1="1117" y1="1764" x2="1173" y2="1764" stroke="#b8a68d" stroke-width="3" stroke-linecap="round"/>
+    <line x1="1117" y1="1794" x2="1157" y2="1794" stroke="#b8a68d" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1219 1718 L1243 1731 L1199 1848 L1181 1864 L1178 1840 Z" fill="#fffdf8" stroke="#16233f" stroke-width="2"/>
+  
+    <text x="984" y="1916" font-family="Noto Sans JP" font-size="24" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Learning Log</text>
+    <text x="984" y="1955" font-family="Noto Sans JP" font-size="15" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">学習の記録と気づきをまとめるサイトです。</text><text x="984" y="1980" font-family="Noto Sans JP" font-size="15" font-weight="500" fill="#667085" text-anchor="start" letter-spacing="0" opacity="1">継続的なアウトプットで理解を深めています。</text>
+    
+    <rect x="984" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="1013" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">HTML</text>
+  
+    <rect x="1052" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="1081" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">CSS</text>
+  
+    <rect x="1120" y="2016" width="58" height="28" rx="6" fill="#f5f0e8" stroke="#d9dce2"/>
+    <text x="1149" y="2035" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#22345b" text-anchor="middle" letter-spacing="0" opacity="1">PHP</text>
+  
+  
+
+  <line x1="96" y1="2160" x2="1344" y2="2160" stroke="#d9dce2"/>
+  
+    <text x="96" y="2244" font-family="Noto Sans JP" font-size="34" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Illustration</text>
+    <rect x="96" y="2262" width="44" height="4" rx="2" fill="#c49a3b"/>
+    <text x="158" y="2266" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="start" letter-spacing="2.2" opacity="1">SECONDARY</text>
+  
+  
+    <rect x="96" y="2310" width="326" height="176" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+    <path d="M166 2418 C208 2354, 266 2358, 310 2414" fill="none" stroke="#22345b" stroke-width="2" stroke-linecap="round"/>
+     <ellipse cx="274" cy="2422" rx="58" ry="34" fill="#e8ddce" opacity=".65"/>
+  
+  
+    <rect x="456" y="2310" width="326" height="176" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+    <circle cx="548" cy="2404" r="34" fill="#b8a68d" opacity=".6"/>
+     <ellipse cx="626" cy="2370" rx="44" ry="28" fill="#c49a3b" opacity=".3"/>
+     <path d="M590 2440 C642 2352, 716 2404, 660 2470 C626 2508, 584 2482, 590 2440Z" fill="none" stroke="#22345b" stroke-width="2"/>
+  
+  
+    <rect x="816" y="2310" width="326" height="176" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+    <circle cx="1032" cy="2418" r="42" fill="#e8ddce"/>
+     <path d="M982 2466 C956 2420, 964 2372, 990 2348 C1016 2376, 1024 2418, 1000 2466Z" fill="none" stroke="#22345b" stroke-width="2"/>
+     <path d="M988 2372 C936 2330, 894 2360, 888 2400" fill="none" stroke="#dfe8ea" stroke-width="3"/>
+     <circle cx="898" cy="2392" r="4" fill="#22345b"/><circle cx="930" cy="2364" r="4" fill="#22345b"/><circle cx="966" cy="2358" r="4" fill="#22345b"/>
+  
+  <rect x="1186" y="2366" width="158" height="60" rx="10" fill="#fffdf8" stroke="#16233f"/>
+  <text x="1265" y="2405" font-family="Noto Sans JP" font-size="17" font-weight="800" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">More →</text>
+
+  <line x1="96" y1="2552" x2="1344" y2="2552" stroke="#d9dce2"/>
+  
+    <text x="96" y="2636" font-family="Noto Sans JP" font-size="34" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Contact</text>
+    <rect x="96" y="2654" width="44" height="4" rx="2" fill="#c49a3b"/>
+    <text x="158" y="2658" font-family="Noto Sans JP" font-size="12" font-weight="700" fill="#667085" text-anchor="start" letter-spacing="2.2" opacity="1">GET IN TOUCH</text>
+  
+  <rect x="96" y="2704" width="386" height="78" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+  
+    <rect x="124" y="2733" width="28" height="20" rx="2" fill="none" stroke="#16233f" stroke-width="2"/>
+    <path d="M124 2735 L138 2745 L152 2735" fill="none" stroke="#16233f" stroke-width="2"/>
+  
+  <text x="184" y="2749" font-family="Noto Sans JP" font-size="18" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Email</text>
+  <text x="438" y="2751" font-family="Noto Sans JP" font-size="24" font-weight="700" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">↗</text>
+  <rect x="527" y="2704" width="386" height="78" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+  
+    <circle cx="569" cy="2743" r="15" fill="#16233f"/>
+    <circle cx="563" cy="2741" r="3" fill="#fffdf8"/>
+    <circle cx="575" cy="2741" r="3" fill="#fffdf8"/>
+    <path d="M562 2749 C567 2753, 571 2753, 576 2749" fill="none" stroke="#fffdf8" stroke-width="2" stroke-linecap="round"/>
+  
+  <text x="615" y="2749" font-family="Noto Sans JP" font-size="18" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">GitHub</text>
+  <text x="869" y="2751" font-family="Noto Sans JP" font-size="24" font-weight="700" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">↗</text>
+  <rect x="958" y="2704" width="386" height="78" rx="10" fill="#fffdf8" stroke="#d9dce2"/>
+  
+    <path d="M982 2731 L992 2755 L1000 2739 L1008 2755 L1018 2731" fill="none" stroke="#16233f" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="1020" cy="2729" r="4" fill="#c49a3b"/>
+  
+  <text x="1046" y="2749" font-family="Noto Sans JP" font-size="18" font-weight="800" fill="#16233f" text-anchor="start" letter-spacing="0" opacity="1">Wantedly</text>
+  <text x="1300" y="2751" font-family="Noto Sans JP" font-size="24" font-weight="700" fill="#16233f" text-anchor="middle" letter-spacing="0" opacity="1">↗</text>
+
+  <rect x="0" y="2810" width="1440" height="30" fill="#16233f"/>
+  <text x="720" y="2829" font-family="Noto Sans JP" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0" opacity="1">© 2026 Manatsu Sawada</text>
+</svg>
