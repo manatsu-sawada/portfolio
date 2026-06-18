@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Manatsu Sawadaの個人制作イラストをカテゴリ別に閲覧できるギャラリーです。"
+    />
+    <title>Gallery | Illustration Archive</title>
+    <link rel="stylesheet" href="illustration.css" />
+  </head>
+  <body data-page="gallery">
+    <header class="archive-header">
+      <a class="archive-logo" href="index.html" aria-label="Illustration Archive home">
+        Illustration Archive
+      </a>
+
+      <nav class="archive-nav" aria-label="Illustration navigation">
+        <div class="nav-group">
+          <a class="nav-main-link" href="gallery.html">Gallery</a>
+          <div class="nav-submenu" aria-label="Gallery categories">
+            <a href="gallery.html?category=fanart">Fan Art</a>
+            <a href="gallery.html?category=anime">Anime</a>
+            <a href="gallery.html?category=original">Original</a>
+            <a href="gallery.html?category=food">Food</a>
+          </div>
+        </div>
+        <a class="portfolio-switch-link" href="../index.html">Web Portfolio</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="archive-hero gallery-hero">
+        <div class="container narrow">
+          <p class="eyebrow">GALLERY / CATEGORY FILTER</p>
+          <h1>Gallery</h1>
+          <p class="hero-text">
+            個人制作のイラストをジャンル別に鑑賞できます。
+          </p>
+        </div>
+      </section>
+
+      <section class="section gallery-section">
+        <div class="container">
+          <div class="filter-bar" aria-label="Gallery filters">
+            <button class="filter-button is-active" type="button" data-filter="all">
+              All
+            </button>
+            <button class="filter-button" type="button" data-filter="fanart">
+              Fan Art
+            </button>
+            <button class="filter-button" type="button" data-filter="anime">
+              Anime
+            </button>
+            <button class="filter-button" type="button" data-filter="original">
+              Original
+            </button>
+            <button class="filter-button" type="button" data-filter="food">
+              Food
+            </button>
+          </div>
+
+          <div class="gallery-grid" data-gallery-grid></div>
+          <p class="empty-state" data-empty-state hidden>
+            このカテゴリの作品はまだ準備中です。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="archive-footer">
+      <p>&copy; 2026 Manatsu Sawada / Illustration Archive</p>
+    </footer>
+
+    <div class="image-modal" aria-hidden="true" data-modal>
+      <button class="modal-close" type="button" aria-label="Close expanded image">
+        ×
+      </button>
+      <img src="" alt="" />
+    </div>
+
+    <script src="illustration.js"></script>
+  </body>
+</html>

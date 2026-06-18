@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Manatsu Sawadaの個人制作イラストをカテゴリ別にまとめたアーカイブページです。"
+    />
+    <title>Illustration Archive | Manatsu Sawada</title>
+    <link rel="stylesheet" href="illustration.css" />
+  </head>
+  <body data-page="home">
+    <header class="archive-header">
+      <a class="archive-logo" href="index.html" aria-label="Illustration Archive home">
+        Illustration Archive
+      </a>
+
+      <nav class="archive-nav" aria-label="Illustration navigation">
+        <div class="nav-group">
+          <a class="nav-main-link" href="gallery.html">Gallery</a>
+          <div class="nav-submenu" aria-label="Gallery categories">
+            <a href="gallery.html?category=fanart">Fan Art</a>
+            <a href="gallery.html?category=anime">Anime</a>
+            <a href="gallery.html?category=original">Original</a>
+            <a href="gallery.html?category=food">Food</a>
+          </div>
+        </div>
+        <a class="portfolio-switch-link" href="../index.html">Web Portfolio</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="archive-hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">PERSONAL WORKS / IMAGE ARCHIVE</p>
+            <h1>Illustration Archive</h1>
+            <p class="hero-text">
+              個人制作のイラストをまとめたページです。
+              ファンアート、二次創作イラスト、オリジナルイラスト、食べ物など、ジャンルを問わず制作したものをアーカイブしています。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="gallery.html">View Gallery</a>
+              <a class="button button-secondary" href="../index.html">Web Portfolio</a>
+            </div>
+          </div>
+
+          <div class="hero-frame">
+            <img
+              class="hero-main-image"
+              src="../assets/images/original/mendako_dsk.png"
+              alt="Original mini character illustration used as the main visual"
+              onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">CATEGORIES</p>
+            <h2>Gallery</h2>
+            <p>
+              ジャンルごとに作品を鑑賞できます。
+            </p>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card">
+              <a class="category-image" href="gallery.html?category=fanart">
+                <img
+                  src="../assets/images/idol/tif_idol.PNG"
+                  alt="Fan art category thumbnail"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </a>
+              <div class="category-body">
+                <p class="category-kicker">Fan Art</p>
+                <h3>Fan Art</h3>
+                <p>好きなアーティストや思い出に残ったコンサート等を描いたファンアートです。</p>
+                <a class="text-link" href="gallery.html?category=fanart">View more</a>
+              </div>
+            </article>
+
+            <article class="category-card">
+              <a class="category-image" href="gallery.html?category=anime">
+                <img
+                  src="../assets/images/anime/favorite_chara.PNG"
+                  alt="Anime illustration category thumbnail"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </a>
+              <div class="category-body">
+                <p class="category-kicker">Anime</p>
+                <h3>Anime Illustration</h3>
+                <p>アニメ、漫画、ゲーム等のキャラクターを描いた二次創作イラストです。</p>
+                <a class="text-link" href="gallery.html?category=anime">View more</a>
+              </div>
+            </article>
+
+            <article class="category-card">
+              <a class="category-image" href="gallery.html?category=original">
+                <img
+                  src="../assets/images/original/apple_girl.PNG"
+                  alt="Original illustration category thumbnail"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </a>
+              <div class="category-body">
+                <p class="category-kicker">Original</p>
+                <h3>Original</h3>
+                <p>創作キャラクターや自由制作のイラストを、作品メモのように残しています。</p>
+                <a class="text-link" href="gallery.html?category=original">View more</a>
+              </div>
+            </article>
+
+            <article class="category-card">
+              <a class="category-image" href="gallery.html?category=food">
+                <img
+                  src="../assets/images/food/fillipino_food1.png"
+                  alt="Food illustration category thumbnail"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </a>
+              <div class="category-body">
+                <p class="category-kicker">Food</p>
+                <h3>Food</h3>
+                <p>食べ物を題材にしたイラストや、旅先で印象に残ったモチーフを整理しています。</p>
+                <a class="text-link" href="gallery.html?category=food">View more</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section portfolio-link-section">
+        <div class="container portfolio-link-panel">
+          <div>
+            <p class="eyebrow">MAIN PORTFOLIO</p>
+            <h2>Looking for my web portfolio?</h2>
+            <p>
+              Web制作・AI学習・Worksを中心にしたエンジニアポートフォリオはこちらです。
+            </p>
+          </div>
+          <a class="button button-primary" href="../index.html">View Web Portfolio</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="archive-footer">
+      <p>&copy; 2026 Manatsu Sawada / Illustration Archive</p>
+    </footer>
+
+    <div class="image-modal" aria-hidden="true" data-modal>
+      <button class="modal-close" type="button" aria-label="Close expanded image">
+        ×
+      </button>
+      <img src="" alt="" />
+    </div>
+
+    <script src="illustration.js"></script>
+  </body>
+</html>
