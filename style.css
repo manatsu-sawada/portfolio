@@ -726,9 +726,11 @@ a {
   inset: 0;
   z-index: 50;
   display: none;
-  place-items: center;
-  padding: 28px;
+  align-items: center;
+  justify-items: center;
+  padding: 76px 24px 32px;
   background: rgba(16, 42, 67, 0.72);
+  overflow: auto;
 }
 
 .image-modal.is-open {
@@ -736,8 +738,12 @@ a {
 }
 
 .image-modal img {
-  max-width: min(1100px, 94vw);
-  max-height: 86vh;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(1100px, calc(100vw - 48px));
+  max-height: calc(100vh - 108px);
+  margin: auto;
   border-radius: var(--radius);
   background: var(--paper);
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
@@ -861,6 +867,14 @@ a {
     width: min(100% - 32px, var(--container));
   }
 
+  .contact-section .container {
+    width: min(100% - 48px, var(--container));
+  }
+
+  .hero-visual {
+    display: none;
+  }
+
   .section {
     padding: 72px 0;
   }
@@ -920,5 +934,18 @@ a {
 
   .illustration-grid {
     grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    gap: 18px;
+  }
+
+  .contact-card {
+    min-height: 96px;
+    padding: 18px 22px;
+  }
+
+  .contact-card span:not(.icon):not(.arrow) {
+    overflow-wrap: anywhere;
   }
 }

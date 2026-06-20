@@ -268,6 +268,7 @@ h3 {
   color: var(--navy-soft);
   font-size: 1.05rem;
   font-weight: 550;
+  white-space: pre-line;
 }
 
 .hero-actions {
@@ -588,7 +589,9 @@ h3 {
   z-index: 50;
   display: none;
   place-items: center;
+  box-sizing: border-box;
   padding: 28px;
+  overflow: auto;
   background: rgba(16, 42, 67, 0.72);
 }
 
@@ -597,7 +600,7 @@ h3 {
 }
 
 .image-modal img {
-  max-width: min(1100px, 94vw);
+  max-width: min(1100px, 100%);
   max-height: 86vh;
   border-radius: var(--radius);
   background: var(--paper);
@@ -657,7 +660,7 @@ h3 {
   }
 
   .hero-frame {
-    max-width: 420px;
+    display: none;
   }
 
   .category-grid,
