@@ -4,9 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const langButtons = document.querySelectorAll("[data-lang]");
   const menuToggle = document.querySelector(".menu-toggle");
   const siteNav = document.querySelector(".site-nav");
-  const imageModal = document.querySelector(".image-modal");
-  const modalImage = imageModal?.querySelector("img");
-  const modalClose = imageModal?.querySelector(".modal-close");
 
   function setLanguage(lang) {
     const nextLang = lang === "en" ? "en" : "ja";
@@ -71,45 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
       siteNav.classList.toggle("is-open", !isOpen);
     });
   }
-
-  function closeImageModal() {
-    if (!imageModal || !modalImage) {
-      return;
-    }
-
-    imageModal.classList.remove("is-open");
-    imageModal.setAttribute("aria-hidden", "true");
-    modalImage.removeAttribute("src");
-    modalImage.alt = "";
-  }
-
-  document.querySelectorAll(".illustration-trigger img").forEach((image) => {
-    image.parentElement.addEventListener("click", () => {
-      if (!imageModal || !modalImage) {
-        return;
-      }
-
-      modalImage.src = image.currentSrc || image.src;
-      modalImage.alt = image.alt;
-      imageModal.classList.add("is-open");
-      imageModal.setAttribute("aria-hidden", "false");
-      modalClose?.focus();
-    });
-  });
-
-  modalClose?.addEventListener("click", closeImageModal);
-
-  imageModal?.addEventListener("click", (event) => {
-    if (event.target === imageModal) {
-      closeImageModal();
-    }
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") {
-      closeImageModal();
-    }
-  });
 
   setLanguage("ja");
 });
