@@ -651,6 +651,7 @@ a {
 .text-link {
   display: inline-flex;
   align-items: center;
+  gap: 7px;
   min-height: 36px;
   padding: 0 16px;
   border: 1px solid var(--navy);
@@ -658,6 +659,10 @@ a {
   color: var(--navy);
   font-size: 0.85rem;
   font-weight: 800;
+}
+
+.text-link .fa-github {
+  font-size: 0.95rem;
 }
 
 .illustration-layout {
@@ -720,6 +725,11 @@ a {
 
 .contact-card .arrow {
   font-size: 1.4rem;
+}
+
+.contact-card .fa-github {
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .site-footer {
