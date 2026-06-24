@@ -35,7 +35,7 @@
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#works">Works</a>
-        <a href="#illustration">Illustration</a>
+        <a href="illustration/index.html">Illustration</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -79,16 +79,14 @@
                 data-i18n
                 data-ja="Worksを見る"
                 data-en="View Works"
-                >Worksを見る</a
-              >
+                >Worksを見る</a>
               <a
                 class="button button-secondary"
                 href="#contact"
                 data-i18n
                 data-ja="Contact"
                 data-en="Contact"
-                >Contact</a
-              >
+                >Contact</a>
             </div>
           </div>
 
@@ -229,16 +227,16 @@
                     class="text-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >Demo</a
-                  >
+                    >Demo</a>
                   <a
                     href="https://github.com/manatsu-sawada/portfolio"
                     class="text-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><i class="fa-brands fa-github" aria-hidden="true"></i
-                    >GitHub</a
                   >
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    GitHub
+                  </a>
                 </div>
               </div>
             </article>
@@ -274,16 +272,16 @@
                     class="text-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >Demo</a
-                  >
+                    >Demo</a>
                   <a
                     href="https://github.com/manatsu-sawada/coffee-bean.github.io"
                     class="text-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    ><i class="fa-brands fa-github" aria-hidden="true"></i
-                    >GitHub</a
                   >
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    GitHub
+                  </a>
                 </div>
               </div>
             </article>
@@ -307,52 +305,52 @@
                   <li>PHP</li>
                 </ul>
                 <div class="card-actions">
-                  <a href="#" class="text-link">Demo</a>
-                  <a href="#" class="text-link"
-                    ><i class="fa-brands fa-github" aria-hidden="true"></i
-                    >GitHub</a
-                  >
+                  <span class="text-link is-disabled" aria-disabled="true">
+                    Demo
+                  </span>
+                  <span class="text-link is-disabled" aria-disabled="true">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    GitHub
+                  </span>
                 </div>
               </div>
             </article>
-          </div>
-        </div>
-      </section>
 
-      <section class="section illustration-section" id="illustration">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">SECONDARY</p>
-            <h2 data-i18n data-ja="Illustration" data-en="Illustration">
-              Illustration
-            </h2>
-            <p
-              class="section-description"
-              data-i18n
-              data-ja="&#12452;&#12521;&#12473;&#12488;&#21046;&#20316;&#12398;&#19990;&#30028;&#35251;&#12399;&#12289;&#23554;&#29992;&#12506;&#12540;&#12472;&#12395;&#12414;&#12392;&#12417;&#12390;&#12356;&#12414;&#12377;&#12290;"
-              data-en="A quiet visual archive of personal illustration work, shaped with mood, detail, and a soft sense of story."
-            >
-              &#12452;&#12521;&#12473;&#12488;&#21046;&#20316;&#12398;&#19990;&#30028;&#35251;&#12399;&#12289;&#23554;&#29992;&#12506;&#12540;&#12472;&#12395;&#12414;&#12392;&#12417;&#12390;&#12356;&#12414;&#12377;&#12290;
-            </p>
-          </div>
-          <div class="illustration-layout">
-            <div class="illustration-cta-copy">
-              <p
-                data-i18n
-                data-ja="&#20316;&#21697;&#12398;&#38640;&#22258;&#27671;&#12420;&#34920;&#29694;&#12398;&#24133;&#12434;&#12289;&#12509;&#12540;&#12488;&#12501;&#12457;&#12522;&#12458;&#12506;&#12540;&#12472;&#12391;&#12422;&#12387;&#12367;&#12426;&#12372;&#35239;&#12356;&#12383;&#12384;&#12369;&#12414;&#12377;&#12290;"
-                data-en="Step into a curated illustration portfolio that complements the technical work with a lighter, more personal creative voice."
-              >
-                &#20316;&#21697;&#12398;&#38640;&#22258;&#27671;&#12420;&#34920;&#29694;&#12398;&#24133;&#12434;&#12289;&#12509;&#12540;&#12488;&#12501;&#12457;&#12522;&#12458;&#12506;&#12540;&#12472;&#12391;&#12422;&#12387;&#12367;&#12426;&#12372;&#35239;&#12356;&#12383;&#12384;&#12369;&#12414;&#12377;&#12290;
-              </p>
-            </div>
-            <a
-              class="button button-secondary illustration-cta-button"
-              href="illustration/index.html"
-              data-i18n
-              data-ja="&#12452;&#12521;&#12473;&#12488;&#12434;&#35211;&#12427;"
-              data-en="View Illustration Portfolio"
-              >&#12452;&#12521;&#12473;&#12488;&#12434;&#35211;&#12427;</a
-            >
+            <article class="work-card">
+              <div class="work-visual work-thumbnail">
+                <img
+                  src="images/illustration_archive.png"
+                  alt="Illustration Archive website thumbnail"
+                  onerror="this.parentElement.classList.add('is-missing'); this.remove()"
+                />
+              </div>
+              <div class="work-body">
+                <h3
+                  data-i18n
+                  data-ja="Illustration Archive"
+                  data-en="Illustration Archive"
+                >
+                  Illustration Archive
+                </h3>
+                <p
+                  data-i18n
+                  data-ja="自身で制作したイラストのポートフォリオを作成しました。ジャンルや制作時期をわかりやすく配置しています。"
+                  data-en="I created a portfolio for my illustration work, organized clearly by genre and production period."
+                >
+                  自身で制作したイラストのポートフォリオを作成しました。ジャンルや制作時期をわかりやすく配置しています。
+                </p>
+                <ul class="mini-tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="illustration/index.html" class="text-link">
+                    View Archive
+                  </a>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
